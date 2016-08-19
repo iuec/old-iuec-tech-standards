@@ -9,10 +9,3 @@ sub_categories:
 ## Purpose
 
 These standards outline technical, interoperability, and information requirements for systems and services operating within the English NHS Urgent Care system.
-
-
-<!-- <ul> -->
-<!-- {% for page in site.documents %} -->
-<!-- 	<li>{{ page.title }}</li> -->
-<!-- {% endfor %} -->
-<!-- </ul> -->
