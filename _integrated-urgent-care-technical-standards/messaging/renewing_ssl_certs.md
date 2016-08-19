@@ -1,8 +1,11 @@
 
-Renewing NHS 111 Endpoint Certificates
-======================================
+---
+title: Renewing Certs for TLS Mutual Authentication
+category: Integrated Urgent Care Technical Standards
+sub_category: Messaging
+---
 
-[TOC]
+# Renewing Endpoint SSL Certificates
 
 ITK certificates provide the security and identification element of existing Integrated Urgent Care interoperability. They are used to provide Mutual Authentication between two communicating parties. Live services operate using spine certificates issued to endpoints on the oneoneone.nhs.uk NHS sub-domain.
 

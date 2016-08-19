@@ -1,3 +1,9 @@
+---
+title: Post Event Messaging
+category: Integrated Urgent Care Technical Standards
+sub_category: Post Event Messaging
+---
+
 # Post Event Messaging
 
 All encounters with the Integrated Urgent Care service must be followed up with a message back to the patient's registered GP surgery.

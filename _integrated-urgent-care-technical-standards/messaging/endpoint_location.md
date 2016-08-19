@@ -1,4 +1,10 @@
-# Endpoint Directory
+---
+title: Endpoint Location
+category: Integrated Urgent Care Technical Standards
+sub_category: Messaging
+---
+
+# Endpoint Location
 
 The current Pathways Directory of Services (DOS) has functionality for storing endpoint details for services which are listed on the DOS. 
 
