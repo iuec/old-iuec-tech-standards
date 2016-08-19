@@ -1,0 +1,179 @@
+/*
+  Note: fonts at the moment are being served by fonts.com
+  This will need to change ;)
+*/
+
+body {
+  font-family: "Neue Frutiger W04", Arial, sans-serif;
+  font-weight: 400;
+  font-size: map-get($type-small, body);
+  line-height: map-get($type-small, leading-body);
+  color: $text-colour;
+
+  @include media(large) {
+    font-size: map-get($type-large, body);
+    line-height: map-get($type-large, leading-body);
+  }
+}
+
+h1 {
+  font-weight: 700;
+  font-size: map-get($type-small, xxlarge);
+  line-height: map-get($type-small, leading-xxlarge);
+  margin: 25px 0;
+
+  @include media(large) {
+    font-size: map-get($type-large, xxlarge);
+    line-height: map-get($type-large, leading-xxlarge);
+    margin: 36px 0;
+  }
+}
+
+.heading-xlarge {
+  font-weight: 700;
+  font-size: map-get($type-small, xlarge);
+  line-height: map-get($type-small, leading-xlarge);
+  margin: 25px 0 20px 0;
+
+  @include media(large) {
+    font-size: map-get($type-large, xlarge);
+    line-height: map-get($type-large, leading-xlarge);
+    margin: 36px 0 24px 0;
+  }
+}
+
+h2 {
+  font-weight: 700;
+  font-size: map-get($type-small, large);
+  line-height: map-get($type-small, leading-large);
+  margin: 20px 0 15px 0;
+
+  @include media(large) {
+    font-size: map-get($type-large, large);
+    line-height: map-get($type-large, leading-large);
+    margin: 36px 0 18px 0;
+  }
+}
+
+h3 {
+  font-weight: 700;
+  font-size: map-get($type-small, medium);
+  line-height: map-get($type-small, leading-medium);
+  margin: 15px 0 15px 0;
+
+  @include media(large) {
+    font-size: map-get($type-large, medium);
+    line-height: map-get($type-large, leading-medium);
+    margin: 24px 0 18px 0;
+  }
+}
+
+h4, h5, h6 {
+  font-weight: 700;
+  font-size: map-get($type-small, body);
+  line-height: map-get($type-small, leading-body);
+  margin: 20px 0 15px 0;
+
+  @include media(large) {
+    font-size: map-get($type-large, body);
+    line-height: map-get($type-large, leading-body);
+    margin: 24px 0 18px 0;
+  }
+}
+
+p {
+  margin: 15px 0;
+
+  @include media(large) {
+    margin: 18px 0;
+  }
+}
+
+.lede {
+  font-size: map-get($type-small, medium);
+  line-height: map-get($type-small, leading-medium);
+
+  @include media(large) {
+    font-size: map-get($type-large, medium);
+    line-height: map-get($type-large, leading-medium) + 2px;
+  }
+}
+
+ul {
+  list-style-type: disc;
+  list-style-position: outside;
+
+  @include media(large) {
+    margin-bottom: 18px;
+  }
+}
+
+ol {
+  list-style-type: decimal;
+  list-style-position: outside;
+
+  @include media(large) {
+    margin-bottom: 18px;
+  }
+}
+
+li {
+  margin-left: 1.25em;
+
+  @include media(large) {
+    margin-bottom: 12px;
+  }
+}
+
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
+}
+
+a {
+  color: $link-colour;
+  text-decoration: underline;
+  cursor: pointer;
+
+  &:visited {
+    color: $link-visited-colour;
+  }
+
+  &:hover {
+    color: $link-highlight-colour;
+  }
+
+  &:focus {
+    color: $text-colour;
+    background-color: $focus-colour;
+    outline: 3px solid $focus-colour;
+  }
+}
+
+table {
+  @include media(large) {
+    margin-bottom: 36px;
+  }
+}
+
+th, td {
+  border-bottom: 1px solid $border-colour;
+  text-align: left;
+  padding: 8px 12px 8px 0;
+  font-size: map-get($type-small, small);
+  line-height: map-get($type-small, leading-small);
+
+  @include media(large) {
+    font-size: map-get($type-large, small);
+    line-height: map-get($type-large, leading-small);
+  }
+}
+
+th {
+  font-family: "Frutiger Neue W01 Bd", Arial, sans-serif;
+  font-weight: normal;
+}
+
+b, strong,
+i, em {
+  font-weight: 700;
+}

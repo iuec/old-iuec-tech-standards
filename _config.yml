@@ -1,0 +1,39 @@
+# Welcome to Jekyll!
+#
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+title: Your awesome title
+email: your-email@domain.com
+description: Documentation for the Integrated & Emergency Care Technical Standards.
+
+
+# Build settings
+markdown: kramdown
+theme: minima
+permalink: /:path/:basename
+
+# Default Settings
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "content_page"
+  -
+    scope:
+      path: "index.html"
+    values:
+      layout: "default"
+
+# Collections
+collections:
+  integrated-urgent-care-technical-standards:
+    output: true
+    title: Integrated Urgent Care Technical Standards
+
+  nhs111-imt-standards:
+    output: true
+    title: NHS111 IM&T Standards
+    permalink: /:collection/:title.html

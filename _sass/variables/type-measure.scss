@@ -1,0 +1,51 @@
+// Based on Major Third / 1.250
+// http://type-scale.com/?size=18&scale=1.333&text=A%20Visual%20Type%20Scale&webfont=Open%2BSans&font-family=%27Open%20sans%27%2C%20serif&font-weight=400&font-family-headers=&font-weight-headers=inherit&background-color=white&font-color=%23333
+
+$type-small: (
+  xxlarge: 31px,
+  leading-xxlarge: 36px,
+
+  xlarge: 25px,
+  leading-xlarge: 30px,
+
+  large: 20px,
+  leading-large: 26px,
+
+  medium: 18px,
+  leading-medium: 24px,
+
+  body: 16px,
+  leading-body: 22px,
+
+  small: 14px,
+  leading-small: 22px,
+
+  xsmall: 13px,
+  leading-xsmall: 22px,
+);
+
+// Based on Perfect Fourth / 1.333
+// http://type-scale.com/?size=18&scale=1.333&text=A%20Visual%20Type%20Scale&webfont=Open%2BSans&font-family=%27Open%20sans%27%2C%20serif&font-weight=400&font-family-headers=&font-weight-headers=inherit&background-color=white&font-color=%23333
+
+$type-large: (
+  xxlarge: 56px,
+  leading-xxlarge: 60px,
+
+  xlarge: 32px,
+  leading-xlarge: 36px,
+
+  large: 26px,
+  leading-large: 30px,
+
+  medium: 21px,
+  leading-medium: 26px,
+
+  body: 18px,
+  leading-body: 24px,
+
+  small: 16px,
+  leading-small: 24px,
+
+  xsmall: 14px,
+  leading-xsmall: 24px,
+);

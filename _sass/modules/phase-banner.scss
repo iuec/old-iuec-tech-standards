@@ -1,0 +1,16 @@
+.phase-banner {
+  @extend .block-container;
+
+  font-size: map-get($type-small, xsmall);
+  line-height: map-get($type-small, leading-xsmall);
+
+  p {
+    border-bottom: 1px solid $grey-2;
+    margin: 0;
+    padding: 18px 0;
+  }
+
+  b {
+    color: $dark-pink;
+  }
+}

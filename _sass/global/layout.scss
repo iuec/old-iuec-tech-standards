@@ -1,0 +1,99 @@
+html {
+  background-color: $black;
+}
+
+body {
+  background: $page-colour;
+}
+
+.block-container {
+  max-width: 960px;
+  padding: 0 5%;
+  margin: 0 auto;
+}
+
+#global-header {
+  background-color: $blue;
+  border-bottom: 6px solid tint($blue, 90%);
+
+  @extend %contain-floats;
+
+  .header-container {
+    @extend .block-container;
+  }
+
+  a.header-logo {
+    display: block;
+    float: left;
+    width: 90px;
+    height: 36px;
+    margin: 15px 0 15px 0;
+
+    &:focus {
+      background-color: transparent;
+    }
+
+    img {
+      display: block;
+    }
+  }
+}
+
+#content {
+  // prevent margins leaking (helps with skiplink)
+  padding-top: 1px;
+}
+
+#global-footer {
+  background-color: $black;
+  color: tint($black, 70%);
+  padding: 48px 0 24px 0;
+  margin-top: 48px;
+  border-top: 6px solid tint($black, 30%);
+  font-size: map-get($type-small, xsmall);
+  line-height: map-get($type-small, leading-xsmall);
+
+  @include media(large) {
+    font-size: map-get($type-large, xsmall);
+    line-height: map-get($type-large, leading-xsmall);
+  }
+
+  a {
+    color: tint($black, 70%);
+
+    &:focus {
+      color: $black;
+    }
+  }
+
+  .footer-container {
+    @extend .block-container;
+  }
+
+  nav li {
+    display: inline;
+    list-style: none;
+    margin: 0 12px 0 0;
+    padding: 0;
+  }
+}
+
+// Main content to have approx 65-75 character width
+.content-measure {
+  h1, h2, h3, h4, h5, h6,
+  ol, ul, dl,
+  p,
+  .notice {
+    max-width: map-get($type-small, body) * 34;
+
+    @include media(large) {
+      max-width: map-get($type-large, body) * 34;
+    }
+  }
+}
+
+// use for items that need to ape the content measure at class level
+// i.e. pagination block, condition-navigation
+.measure {
+  max-width: 34em;
+}

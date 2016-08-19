@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<main id="content" class="block-container" role="main" tabindex="-1">
+  <div class="go-back-link">
+    <a href="/">&#171; Go back</a>
+  </div>
+    <nav class="numbered-navigation" role="navigation">
+    {% if page.category %}
+      <h1>{{ page.category }}</h1>
+    {% endif %}
+    </nav>
+	<div class="content-measure">
+      <!-- Index Page Content -->
+		  {{ content }}
+      <h3>Contents</h3>
+      <!-- Snippet to include the page contents -->
+      {% if page.sub_categories %}
+        {% for sub_categories in page.sub_categories %}
+        <h5>{{ sub_categories.title }}</h5>
+          <ul>
+        {% for page in site.documents %}
+          {% if page.sub_category contains sub_categories.title %}
+            <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+          {%endif%}
+        {% endfor %}
+          </ul>
+        {% endfor %}
+      {% elsif page.category %}
+      <ul>
+      {% for category in page.category %}
+        {% for page in site.documents %}
+          {% if page.category contains category %}
+            <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+      </ul>
+      {% endif %}
+	</div>
+</main>

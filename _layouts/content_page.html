@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<main id="content" class="block-container" role="main" tabindex="-1">
+	<div class="go-back-link">
+    <a href="/{{ page.category | slugify }}">&#171; Go back</a>
+  </div>
+  <div class="breadcrumbs">
+    <p>{{ page.category }} / {% if page.sub_category %}{{ page.sub_category }} /{% endif %} <b><u>{{ page.title }}</u></b></p>
+  </div>
+    <nav class="numbered-navigation" role="navigation">
+      <h1>{{ page.title }}</h1>
+    </nav>
+	<div class="content-measure">
+		  {{ content }}
+	</div>
+  <div class="go-back-link">
+    <a href="/{{ page.category | slugify }}">&#171; Go back</a>
+  </div>
+</main>
