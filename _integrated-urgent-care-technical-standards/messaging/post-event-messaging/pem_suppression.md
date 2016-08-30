@@ -1,10 +1,8 @@
 ---
-title: Transfer of Care (NHS 111 CDA)
+title: PEM Suppression
 category: Integrated Urgent Care Technical Standards
 sub_category: Post Event Messaging
 ---
-
-# GP Messaging Suppression
 
 At the end of an patient journey within Integrated Urgent Care (IUC), a patient's GP practice should be notified, messages should only be sent when an encouter with the IUC service has concluded and no call backs or further care is going to be provided by the service. 
 
