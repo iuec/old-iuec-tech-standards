@@ -4,9 +4,9 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
-title: Your awesome title
-email: your-email@domain.com
-description: Documentation for the Integrated & Emergency Care Technical Standards.
+title: Matt Stibbs
+email: m.stibbs@nhs.net
+description: Integrated & Emergency Care Technical Standards.
 
 
 # Build settings
@@ -32,6 +32,7 @@ collections:
   integrated-urgent-care-technical-standards:
     output: true
     title: Integrated Urgent Care Technical Standards
+    permalink: /:collection/:title.html
 
   nhs111-imt-standards:
     output: true
