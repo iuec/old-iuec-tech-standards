@@ -1,0 +1,28 @@
+---
+---
+<main id="content" class="block-container">
+  <div class="content-measure">
+
+    <h1>Integrated Urgent & Emergency Care Technical Standards</h1>
+
+    <h3>Contents</h3>
+
+    <ul>
+      {% for collection in site.collections %}
+          {% if collection.title %}
+          <li><a href="{{ site.url }}/{{ collection.label }}/index.html">{{ collection.title }}</a></li>
+          {% endif %}
+      {% endfor %}
+    </ul>
+
+    <h3>Contributing</h3>
+    <p>By making this documentation completely open, we hope that the whole community will contribute to making this resource more clear, more accurate, and more complete.</p>
+
+    <p>Any contribution is gratefully received - whether it be an entirely new document or a single spelling correction.</p>
+
+    <p>Please feel very welcome to fork this repository on <a href="https://github.com/iuec/iuec-tech-standards"> Github</a> and submit pull requests.</p>
+
+    <p>If you are not comfortable or familiar with using Github, but wish to contribute - please just email <a href="mailto:m.stibbs@nhs.net">m.stibbs@nhs.net</a> with your contribution and we'll do the rest.</p>
+
+  </div>
+</main>
