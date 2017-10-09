@@ -1,6 +1,7 @@
 ---
 title: Frequently Asked Questions
 category: Integrated Urgent Care Technical Standards
+sub_category: Frequently Asked Questions
 ---
 ## Frequently Asked Questions
 
