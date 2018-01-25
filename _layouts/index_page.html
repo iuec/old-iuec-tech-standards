@@ -27,7 +27,7 @@ layout: default
           </ul>
         {% endfor %}
       {% elsif page.category %}
-      <ul>
+<!--       <ul>
       {% for category in page.category %}
         {% for page in site.documents %}
           {% if page.category contains category %}
@@ -35,7 +35,9 @@ layout: default
           {% endif %}
         {% endfor %}
       {% endfor %}
-      </ul>
+      </ul> -->
       {% endif %}
 	</div>
 </main>
+
+<!-- I've commented out the above to try and work out how the contents structure is being created ^^ -->

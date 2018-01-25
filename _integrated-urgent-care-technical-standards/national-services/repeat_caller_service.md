@@ -46,7 +46,7 @@ Submitted documents are stored for a maximum of 96 hours before they are deleted
 ## Implementation Requirements
 All IT systems used for receiving initial urgent care encounters must have connectivity to the Repeat Caller Service.
 
-Systems should support both Repeat Caller Queries and CDA submissions at the end of encounters. 
+Systems should support both Repeat Caller Queries and CDA submissions at the end of encounters.
 
 
 ### Querying The RCS

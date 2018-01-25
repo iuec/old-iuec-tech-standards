@@ -1,10 +1,11 @@
 ---
 title: Ambulance Requests
+layout: content_page
 category: Integrated Urgent Care Technical Standards
 sub_category: Messaging
 ---
 
-Integrated Urgent Care services have the ability to directly request an ambulance for a patient where necessary. 
+Integrated Urgent Care services have the ability to directly request an ambulance for a patient where necessary.
 
 A message specification for Ambulance Requests is defined as part of the NHS 111 ITK Domain Message Specification. NHS 111 services, which are using NHS Pathways as a triage tool, are currently able to electronically  request an ambulance where the NHS Pathways tool advises one is required.
 
@@ -14,7 +15,7 @@ These electonic ambulance requests are defined in the [NHS 111 ITK Domain Messag
 
 ### Ambulance requests from clinical hubs
 
-With the introduction of [Clinical Hubs](../integrated-urgent-care/clinical-hubs), electronic ambulance requests will be expanded for 
+With the introduction of [Clinical Hubs](../integrated-urgent-care/clinical-hubs), electronic ambulance requests will be expanded for
 
 
 
