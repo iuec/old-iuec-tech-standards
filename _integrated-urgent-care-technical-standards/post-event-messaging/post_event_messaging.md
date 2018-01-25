@@ -1,5 +1,6 @@
 ---
 title: Post Event Messaging
+layout: content_page
 category: Integrated Urgent Care Technical Standards
 sub_category: Post Event Messaging
 ---
@@ -9,7 +10,7 @@ sub_category: Post Event Messaging
 All encounters with the Integrated Urgent Care service must be followed up with a message back to the patient's registered GP surgery.
 
 
-1. All areas must have plans in place to implement ITK within the GP systems. ITK is proven to reduce the workload on GP’s, as the current practice of using DTS increases workload on NHS 111, GP’s, and increases the amount of faxing within NHS 111 service in particular for Out of Area calls  
+1. All areas must have plans in place to implement ITK within the GP systems. ITK is proven to reduce the workload on GP’s, as the current practice of using DTS increases workload on NHS 111, GP’s, and increases the amount of faxing within NHS 111 service in particular for Out of Area calls
 
 2. GP Primary Recipient messages must contain the DoS Service ID in the distribution envelope for routing purposes and the ODS code if it is available;
 
@@ -23,11 +24,11 @@ All encounters with the Integrated Urgent Care service must be followed up with 
 
     a. Patient’s Reported Condition;
 
-    b. Pathways Disposition (this should include selected service);  
+    b. Pathways Disposition (this should include selected service);
 
-    c. Consultation Summary;  
+    c. Consultation Summary;
 
-    d. Pathways Assessment;  
+    d. Pathways Assessment;
 
     e. Advice Given
 

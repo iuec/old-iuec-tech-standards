@@ -1,17 +1,18 @@
 ---
 title: PEM Suppression
+layout: content_page
 category: Integrated Urgent Care Technical Standards
 sub_category: Post Event Messaging
 ---
 
-At the end of an patient journey within Integrated Urgent Care (IUC), a patient's GP practice should be notified, messages should only be sent when an encouter with the IUC service has concluded and no call backs or further care is going to be provided by the service. 
+At the end of an patient journey within Integrated Urgent Care (IUC), a patient's GP practice should be notified, messages should only be sent when an encouter with the IUC service has concluded and no call backs or further care is going to be provided by the service.
 
 This is to ensure the volume of messages a GP receives is kept to a minimum and the GP isn't receiving duplicate information.
 
 
 ## Never Send List
 
-For the purposes of Post Event Messaging (PEM) to a GP the following dispositions are categorized as “Never Send”. 
+For the purposes of Post Event Messaging (PEM) to a GP the following dispositions are categorized as “Never Send”.
 
 This means that upon completion of a NHS Pathways assessment, reaching any of these disposition messages do not need to be transferred to inform the patients GP.
 
