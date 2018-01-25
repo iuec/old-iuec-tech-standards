@@ -1,6 +1,8 @@
 ---
-title: Frequently Asked Questions
+title: ITK Messaging
+layout: content_page
 category: Integrated Urgent Care Technical Standards
+sub_category: Frequently Asked Questions
 ---
 ## Frequently Asked Questions
 
