@@ -1,12 +1,13 @@
 ---
 title: Endpoint Location
+layout: content_page
 category: Integrated Urgent Care Technical Standards
 sub_category: Messaging
 ---
 
 # Endpoint Location
 
-The current Pathways Directory of Services (DOS) has functionality for storing endpoint details for services which are listed on the DOS. 
+The current Pathways Directory of Services (DOS) has functionality for storing endpoint details for services which are listed on the DOS.
 
 The endpoint details support the routing of patients and cases through the Integrated Urgent Care system but telling clinical systems **how** to get encounter information from one service to another.
 
@@ -31,6 +32,16 @@ The following table details each attribute that is stored against an 'endpoint':
 | Format            | The endpoint format defines the format in which the information should be represented (e.g. CDA, HTML, PDF). |
 | Business Scenario | The business scenario defines the situation in which a particular endpoint should be used. Currently this can be **Primary** or **Copy**. |
 | Compressed        | The compressed flag is used for ITK messages and defines whether or not the endpoint can accept compressed ITK messages. Where the value is **True**, ITK messages should be sent with compression enabled. Where the value is **False** or not present, ITK messages should be sent uncompressed. |
+
+Not all transports support all formats - you can build these rules into your endpoint handling so as to avoid supporting unecessary combinations of transport / format. For example, you do not need to support the sending of a CDA XML document via Email.
+
+The following table shows which formats are currently supported by which transports:
+
+| Transport | Supports CDA? | Supports PDF? | Supports HTML? |
+| --------- | ------------- | ------------- | -------------- |
+| ITK       | Yes           | No            | No             |
+| Email     | No            | Yes           | Yes            |
+| Phone     | N/A           | N/A           | N/A            |
 
 
 
