@@ -19,7 +19,7 @@ The Pathways DOS API has a method called 'ServiceDetailsById' - this allows a sy
 
 Endpoint details are structured as a prioritised list of endpoints with various attributes defining how those endpoints can be used.
 
-
+### Endpoint Records
 
 The following table details each attribute that is stored against an 'endpoint':
 
@@ -32,6 +32,8 @@ The following table details each attribute that is stored against an 'endpoint':
 | Format            | The endpoint format defines the format in which the information should be represented (e.g. CDA, HTML, PDF). |
 | Business Scenario | The business scenario defines the situation in which a particular endpoint should be used. Currently this can be **Primary** or **Copy**. |
 | Compressed        | The compressed flag is used for ITK messages and defines whether or not the endpoint can accept compressed ITK messages. Where the value is **True**, ITK messages should be sent with compression enabled. Where the value is **False** or not present, ITK messages should be sent uncompressed. |
+
+#### Payload Formats
 
 Not all transports support all formats - you can build these rules into your endpoint handling so as to avoid supporting unecessary combinations of transport / format. For example, you do not need to support the sending of a CDA XML document via Email.
 
