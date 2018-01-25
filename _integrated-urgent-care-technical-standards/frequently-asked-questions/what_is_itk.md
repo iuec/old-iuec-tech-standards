@@ -2,6 +2,7 @@
 title: What is ITK?
 layout: content_page
 category: Integrated Urgent Care Technical Standards
+sub_category: Frequently Asked Questions
 ---
 
 The acronym 'ITK' gets used a lot within the healthcare technology world. 
