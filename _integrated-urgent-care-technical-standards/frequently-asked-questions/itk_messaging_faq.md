@@ -1,5 +1,5 @@
 ---
-title: Questions about ITK Messaging
+title: ITK Messaging FAQ
 layout: content_page
 category: Integrated Urgent Care Technical Standards
 sub_category: Frequently Asked Questions
