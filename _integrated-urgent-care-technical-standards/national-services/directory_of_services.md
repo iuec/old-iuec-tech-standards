@@ -1,5 +1,6 @@
 ---
 title: Directory of Services
+layout: content_page
 category: Integrated Urgent Care Technical Standards
 sub_category: National Services
 ---

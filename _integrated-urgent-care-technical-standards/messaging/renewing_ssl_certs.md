@@ -1,6 +1,7 @@
 
 ---
 title: Renewing Certs for TLS Mutual Authentication
+layout: content_page
 category: Integrated Urgent Care Technical Standards
 sub_category: Messaging
 ---
